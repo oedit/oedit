@@ -1,0 +1,17 @@
+#include "main.h"
+
+MAINMENU MENU 
+{
+ POPUP "文件 &F"
+ {
+  MENUITEM " 打开 &O", CM_FILE_OPEN
+  MENUITEM "另存为 &A", CM_FILE_SAVEAS
+  MENUITEM SEPARATOR
+  MENUITEM "退出 &X", CM_FILE_EXIT
+ }
+
+ POPUP "帮助 &H"
+ {
+  MENUITEM "关于 &A", CM_ABOUT
+ }
+}
